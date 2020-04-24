@@ -170,14 +170,19 @@ img {
 }
 .nav {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 5vh;
-  padding-bottom: 3vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  border-bottom: 2px dashed #C0C0C0;
+  width: 32%;
+  margin: 0 auto;
 }
 .nav a {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  padding: 1vw;
 }
 .footer {
   width: 100%;
@@ -234,5 +239,12 @@ img {
 }
 .home .content-pick .destination {
   width: 30%;
+  margin-bottom: 30px;
+}
+.funBus {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1vh;
+}
+.funBus img {
   margin-bottom: 30px;
 }
