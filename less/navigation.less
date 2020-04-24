@@ -9,10 +9,28 @@
   width: 32%;
   margin: 0 auto;
 
+  @media @mobile {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navTitle {
+    @media @mobile {
+      font-size: 3rem;
+      margin-bottom: 2vh;
+    }
+  }
+
   a {
     text-decoration: none;
     color: black;
     font-size: 1.7rem;
     padding: 1vw;
+
+    @media @mobile {
+      flex-direction: row;
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
   }
 }
